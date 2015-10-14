@@ -10,8 +10,13 @@
     <body>
         <h1>Ejemplo de Sesiones</h1>
         <br>
-        <a href="/EjemploSession/SesionesServlet">
-          Link al Servlet que maneja Sesiones
-        </a>
+        <form action='SesionesServlet' method="POST">
+           NOMBRE: <input type="text" name="NOMBRE">
+         <br />
+           APELLIDO: <input type="text" name="APELLIDO" />
+         <input type="submit" value="Submit" />
+        </form>
+        
+        
     </body>
 </html>
